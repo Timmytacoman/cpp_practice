@@ -1,7 +1,10 @@
 #include <iostream>
+#include "Burrito.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!";
+    Burrito b;
+    cout << b.num << endl;
     return 0;
 }
