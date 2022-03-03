@@ -6,5 +6,6 @@ int main()
 {
     Burrito b;
     cout << b.num << endl;
-    return 0;
+    cout << b.add(3, 4) << endl;
+
 }

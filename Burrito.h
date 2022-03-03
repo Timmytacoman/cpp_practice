@@ -1,14 +1,17 @@
 #ifndef BURRITO_H
 #define BURRITO_H
 
+#include<iostream>
+
+using namespace std;
+
 class Burrito
 {
 
-    int a = 1;
-
     public:
-        int num = 2;
+        int num = 1;
         Burrito();
+        int add(int x, int y);
 };
 
 #endif
