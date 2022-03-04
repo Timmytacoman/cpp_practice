@@ -3,7 +3,21 @@
 
 using namespace std;
 
-
-int add(int x, int y) {
-    return x + y;
+// constructor
+Burrito::Burrito()
+{
 }
+
+// method
+void Burrito::printi()
+{
+    cout << i << endl;
+}
+
+void Burrito::countUntil(int x) {
+    for(int i = 0; i <= x; i ++) {
+        cout << i << endl;
+    }
+}
+
+

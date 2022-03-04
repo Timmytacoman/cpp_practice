@@ -1,11 +1,17 @@
 #ifndef BURRITO_H
 #define BURRITO_H
 
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
-int add(int, int);
-
+class Burrito
+{
+    public:
+        Burrito();
+        int i = 1;
+        void printi();
+        void countUntil(int);
+};
 
 #endif
