@@ -4,8 +4,6 @@ using namespace std;
 
 int main()
 {
-    Burrito b;
-    cout << b.num << endl;
-    cout << b.add(3, 4) << endl;
-
+    cout << add(1, 3) << endl;
+    
 }

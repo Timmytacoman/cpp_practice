@@ -5,13 +5,7 @@
 
 using namespace std;
 
-class Burrito
-{
+int add(int, int);
 
-    public:
-        int num = 1;
-        Burrito();
-        int add(int x, int y);
-};
 
 #endif
